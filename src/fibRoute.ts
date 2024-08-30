@@ -1,4 +1,3 @@
-
 import { Request, Response } from "express";
 import fibonacci from "./fib";
 
@@ -19,4 +18,4 @@ export default (req: Request, res: Response): void => {
   }
 
   res.send(result);
-};
+};        
